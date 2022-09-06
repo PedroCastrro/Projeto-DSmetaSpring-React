@@ -1,10 +1,11 @@
-import NotificationButton from "./assets/components/NotificationButton"
+import NotificationButton from './assets/components/NotificationButton'
+import Header from './assets/components/Header'
 
 function App() {
-  return(
+  return (
     <>
-    <h1>Olá mundo!</h1>
-    <NotificationButton />
+      <Header />
+      <NotificationButton />
     </>
   )
 }
