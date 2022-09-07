@@ -1,5 +1,10 @@
 header {
-  background: linear-gradient(180deg, #102347 0%, #181818 100%);
+  background: rgb(47, 42, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 42, 116, 1) 53%,
+    rgba(10, 10, 10, 1) 96%
+  );
   height: 220px;
   display: flex;
   align-items: center;
