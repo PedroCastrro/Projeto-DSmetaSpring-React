@@ -1,7 +1,5 @@
 package com.devsuperior.dsmeta.entities;
-
 import java.time.LocalDate;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,7 +15,7 @@ public class Sale {
 	private Long id;
 	private String sellerName;
 	private Integer visited;
-	private Integer daels;
+	private Integer deals;
 	private Double amount;
 	private LocalDate date;
 	
@@ -48,12 +46,12 @@ public class Sale {
 		this.visited = visited;
 	}
 
-	public Integer getDaels() {
-		return daels;
+	public Integer getDeals() {
+		return deals;
 	}
 
-	public void setDaels(Integer daels) {
-		this.daels = daels;
+	public void setDeals(Integer daels) {
+		this.deals = daels;
 	}
 
 	public Double getAmount() {
